@@ -1,0 +1,93 @@
+html {
+    background-image: url("https://cdn.craftbeer.com/wp-content/uploads/Hardywood-Taproom-with-band.jpg");
+    background-color: #cccccc;
+   }
+
+
+#brewArticle {
+    text-align: center;
+    background-color: hsla(44, 100%, 77%, 0.75);
+    border-radius: 5px;
+    margin-right: 15px;
+    font-weight: bolder;
+}
+#brewHeading{
+
+    background-color: hsla(348, 100%, 61%, 0.6);
+    color: hsl(0, 0%, 0%, 0.7);
+}
+#eventArticle {
+text-align: center;
+    background-color: hsla(44, 100%, 77%, 0.75);
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+}
+#eventHeading{
+    background-color: hsl(171, 100%, 41%, 0.6);
+    color: hsl(0, 0%, 0%, 0.7);
+}
+#chooseArticle {
+    text-align: center;
+    background-color: hsla(44, 100%, 77%, 0.75);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+#chooseHeading{
+    background-color: hsl(217, 71%, 53%, 0.6);
+    color: hsl(0, 0%, 0%, 0.7);
+}
+#bannertitle {
+    background-color: hsla(44, 100%, 77%, 0.75);
+    text-decoration: underline;
+}
+#headtitle {
+    color: hsl(0, 0%, 0%, 0.7);
+    font-size: 75px;
+}
+#headsub {
+    color: hsl(0, 0%, 0%, 0.7);
+}
+#aboutNav {
+    background-color: rgba(0, 0, 255, 0);
+
+}
+#aboutTxt {
+    margin-right: 30px;
+}
+
+#histDiv {
+    justify-content: left;
+}
+#userArtist {
+    background-color: rgba(255, 250, 240, 0.637);
+    border-radius: 6px;
+}
+#btn {
+    background-color: hsl(217, 71%, 53%, 0.75);
+    border-radius: 6px;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-bottom: 5px, solid, white;
+    color: black;
+    font-weight: bolder;
+  }
+li:hover {
+    cursor: pointer;
+}
+  .DelBtn {
+      background-color: hsla(44, 100%, 77%, 0);
+      border-radius: 6px;
+      margin-left: 10%;
+      cursor: pointer;
+  }
+  .DelBtn:hover {
+      background-color: rgba(0, 0, 0, 0.281);
+  }
+  #main-body {
+      margin-top: 4%;
+  }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bands/Brews</title>
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <section class="hero is-small is-warning" id="bannertitle">
+    <div class="hero-body" id="herobody">
+      <p class="title" id="headtitle">
+        Bands and Brews
+      </p>
+      <div class="navbar-menu is-flex" id="aboutNav">
+        <div class="navbar-end is-clickable is-size-4" id="aboutTxt">
+          About
+        </div>
+      </div>
+    </div>
+  </section>
+
+<br>
+      <section class="columns" id="main-body">
+        <div class="column" id="card1" >
+            <article class="panel is-link" id="chooseArticle">
+        <p class="panel-heading" id="chooseHeading">
+          Choose an Artist &#127908
+        </p>
+        <div class="panel-block">
+          <p class="control has-icons-left">
+            <input class="input is-link" name="submit" type="text" placeholder="Search" id="userArtist"></input>
+            <br></br>
+            <button id='btn' class="js-modal-trigger button is-info" data-target="modal-js-example">
+              Submit
+            </button>
+            <br></br>
+            <span class="icon is-left">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </span>
+          </p>
+        </div>
+        <div id="histDiv">
+        <span hidden id="artist-count"></span>
+        <ul id="artist-list"></ul>
+      </div>
+      </article>
+
+    </div>
+    
+    <div class="column" id="card2">
+      <article class="panel is-primary" id="eventArticle">
+          <p class="panel-heading" id="eventHeading">
+            Choose a Show &#127967
+          </p>
+          <a type="text" class="panel-block is-active" id="eventCity1" aria-placeholder="test">
+          </a>
+          <a type="text" class="panel-block is-active" id="eventCity2">
+          </a>
+          <a type="text" class="panel-block is-active" id="eventCity3">
+          </a>
+          <a type="text" class="panel-block is-active" id="eventCity4">
+          </a>
+          <a type="text" class="panel-block is-active"id="eventCity5">
+          </a>
+        </article>
+    </div>
+
+    <div class="column" id="card3">
+        <article class="panel is-success is-danger" id="brewArticle">
+            <p class="panel-heading" id="brewHeading">
+              Choose a Brewery &#127867
+            </p>
+              <a class="panel-block is-active" target="_blank:" type="text" id="brew-site1b"></a>
+            
+              <a class="panel-block is-active" target="_blank:" type="text" id="brew-site2b"></a>
+            
+              <a class="panel-block is-active" target="_blank:" type="text" id="brew-site3b"></a>
+            
+              <a class="panel-block is-active" target="_blank:" type="text" id="brew-site4b"></a>
+
+              <a class="panel-block is-active" target="_blank:" type="text" id="brew-site5b"></a>
+          </article>
+    </div>
+
+    </section>
+    <div id="modal-js-example" class="modal">
+      <div class="modal-background"></div>
+    
+      <div class="modal-content">
+        <div class="box">
+          <p>If nothing shows for your selected artist/band, this means there are
+            no scheduled events for that artist/band. Please select another artist/band. 
+            Likewise, if you select a city after selecting an artist/band, and nothing 
+            shows, there are no breweries near that location. Please select another 
+            location.
+          </p>
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
