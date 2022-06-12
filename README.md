@@ -3,10 +3,8 @@
 
 Project Bands and Brews
 
-## Demo
 
-Project Live Link: 
-https://leodickenson.github.io/Project_1_uofm/
+
 
 ## Authors
 
