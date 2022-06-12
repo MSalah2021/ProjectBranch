@@ -1,7 +1,7 @@
 
 # Project Title
 
-Project 1: Bands and Brews
+Project Bands and Brews
 
 ## Demo
 
@@ -10,9 +10,6 @@ https://leodickenson.github.io/Project_1_uofm/
 
 ## Authors
 
-- [@LeoDickens](https://github.com/LeoDickenson)
-- [@CeebchengYang](https://github.com/Ceebcheng)
-- [@AlexHuss](https://github.com/Huss33)
 - [@Mawel](https://github.com/MSalah2021)
 
 ## Features
